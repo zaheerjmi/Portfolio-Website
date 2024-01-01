@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="your-fontawesome-css-link.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+  <script src="https://kit.fontawesome.com/c4254e24a8.js"crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+       <img src="images/logo.jpg" class="logo"></img> 
+       <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fas fa-times" oncanplay="closemenu()"></i>
+       <i class="fas fa-bars" onclick="openmenu()"></i>
+       </ul>
+  </nav>
+    <div class="header-text">
+        <p>Java Developer</p>
+        <h1>Hi, I'm Mohammad <span>Zaheer</span><br>From India</h1>
+       </div>
+       </div>
+       </div>
+    
+    
+        <!-------------------------------------about------------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/background1.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                         A Java FullStack Developer passionate about web Development with
+                         a focus on Back-end and front-end technologies.I am highly interested 
+                         in gaining knowledge about best practices and building quality software.
+                         I am a driven individual with the abililty to adopt to any situation
+                         and proven potantial to grow self and others.
+
+                        <p>
+                            
+                        </p>
+              
+                             <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                        
+                                <div class="tab-contents active-tab" id="skills">
+                                    <ul>
+                                        <li><span>Web Development</span><br>Building Web Application</li>
+                                        <li><span>App Development</span><br>Building Android/ios apps</li>
+                                        <li><span>UI/UX</span><br>Designing Web Application</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023</span><br>CRUD Application in Spring Boot</li>
+                            <li><span>2021</span><br>Lamp Switch On Off</li>
+                            <li><span>2021</span><br>Digital Agency</li>
+            </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>B.TECH(CSE) from AIT</li>
+                            <li><span>2021</span><br>DIPLOMA(CSE) from JMI</li>
+                            <li><span>2018</span><br>DCA from NIELIT</li>
+            </ul> 
+                   </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+              <!----------------------------------services----------------------------->
+              
+                 <div id="services">
+                <div class="container">
+                    <h1 class="sub-title">My Services</h1>
+                    <div class="services-list">
+                        <div>
+                            <i class="fas fa-code"></i>
+                            <h2>Web Development</h2>
+                            <p>Developed web applications using Java and J2EE.
+                                Designed and developed the application's database.
+                                We may also design and implement user interfaces, 
+                                integrate web applications with databases,and
+                                provide technical support for web applications.
+                                Our Java developers are highly proficient in developing 
+                                solutions that are result-oriented, feature-rich,high-performance,
+                                and reliable with a blend of innovation and design 
+                                thinking.Our applications give your business an edge in the market.
+
+                            </p>
+                                <a href="#">learn more</a>
+                        </div>
+                        <div>
+                            <i class="fab fa-app-store-ios"></i>
+                            <h2>App Development</h2>
+                            <p>Developing robust and secure applications is the number one
+                               priority for any business.Java specialists use features such as error detection,
+                               encryption, authentication, code management, and others to accomplish this.
+                               The adoption of Java-based products shows high cost-effectiveness and allows
+                               the building of high-performance applications with relatively low investment.
+                               We provide top-notch services for iOS and Android app development using Java
+                               at affordable prices and the highest quality.
+                            </p>
+                                <a href="#">learn more</a>
+                        </div>
+                        <div>
+                            <i class="fas fa-crop"></i>
+                            <h2>UI/UX Design</h2>
+                            <p>Every enterprise ambitions to get unbeatable achievement 
+                               and to make large profits from their enterprise's mobile apps and websites.
+                               We are a client-specified UI/UX design service provider aiming 
+                               for high-quality interface design methods.We offer product UI/UX development 
+                               services, including branding, responsive web design,
+                               mobile app design, user experience consulting, and promotional designs.
+                               Our team of Java specialists consisting of UI/UX designers.Our UI/UX design services 
+                               are focused on creating interfaces interaction a delightful experience.
+                             </p>
+                                <a href="#">learn more</a>
+                       </div>
+                       </div>
+                       </div>
+                       </div>
+            <!--------------------------------------portfolio------------------------>
+            <div id="portfolio">
+                <div class="container">
+                    <h1 class="sub-title">My Work</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="images/work-1.png" alt="Work 1">
+                            <div class="layer">
+                                <h3>Digital Agency Website</h3>
+                                <p>These templates provide a professional and visually appealing design,
+                                      as well as the necessary features and functionality to showcase services,
+                                       portfolio, client testimonials, and contact information. 
+                                       They are built using HTML, CSS, and JavaScript to ensure a responsive and 
+                                       user-friendly experience for visitors.</p>
+                                <a href="https://www.example.com" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/work-2.png" alt="Work 2">
+                            <div class="layer">
+                                <h3>CRUD App</h3>
+                                <p>The primary objective of the application is to allow a
+                                    user to perform create,read,update and delete Crud
+                                    operations on the underlying data.
+                                    CRUD RESTFul APIs using Spring Boot STS,JPA
+                                    and MySQL as a database.</p>
+                                <a href="#">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/work-3.png" alt="Work 3">
+                            <div class="layer">
+                                <h3>Lamp Switch On Off</h3>
+                                <p>Bulb On Off JavaScript a mini project.The toggle button
+                                    using JavaScript that will hide and show the light.
+                                    It uses the HTML CSS and JavaScript.</p>
+                                <a href="#">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+            
+           
+                           <!----------------------------------------contact-------------------------------->
+                        <div id="contact">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="contact-left">
+                                    <h1 class="sub-title">Contact Me</h1>
+                                    <p><i class="fas fa-envelope"></i> mdzaheerkr@gmail.com</p>
+                                    <p><i class="fas fa-phone"></i> 7827370079</p>
+                                    <div class="social-icon">
+                                        <a href="https://www.linkedin.com"><i class="fas fa-linkedin"></i></a>
+                                        <a href="https://www.instagram.com"><i class="fas fa-square-instagram"></i></a>
+                                          </div>
+                                          <a href="images/my-cv.pdf" download class="btn btn2">Download Cv</a>
+                                          </div>
+                                    <div class="contact-right">
+                                        <form name="submit-to-google-sheet">
+                                            <input type="text" name="Name" placeholder="Your Name" required>
+                                            <input type="text" name="Email" placeholder="Your Email" required>
+                                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                            <button type="submit" class="btn btn2">Submit</button>
+                                        </form> 
+                                        <span id="msg"></span>
+
+                                    </div>
+                                    </div>
+                            </div>
+                            <div class="copyright">
+                                <p>Copyright @ mohd <i class="fas fa-heart"></i> zaheer, Made with portfolio</p>
+
+                            </div>
+                            </div>
+        
+    
+       <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+             var tabcontents=document.getElementsByClassName("tab-contents");
+              function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+              }
+
+            </script> 
+            <script>
+                var sidemenu=document.getElementById("sidemenu");
+                function openmenu(){
+                    sidemenu.style.right="0";
+                }
+                function closemenu(){
+                    sidemenu.style.right="-200px";
+                }
+                </script>
+                <script>
+                    const scriptURL = 'https://script.google.com/macros/s/AKfycbxwYez1XWyHLGRcDaDnz-na5TQhl54WP9LAE11-uBe9tbukIezYE6fLpOCtk_j99wh-0g/exec'
+                    const form = document.forms['submit-to-google-sheet']
+                    const msg=document.getElementById("msg")
+                  
+                    form.addEventListener('submit', e => {
+                      e.preventDefault()
+                      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                        .then(response => {
+                            msg.innerHTML= "Message sent successfully"
+                            setTimeout(function(){
+                                msg.innerHTML= ""
+
+                            },5000)
+                            form.reset()
+                        })
+                        .catch(error => console.error('Error!', error.message))
+                    })
+                  </script>
+
+</body>
+</html>
